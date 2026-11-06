@@ -1,6 +1,6 @@
 // Faz o programa abrir sem internet depois da primeira visita.
 // Para forçar uma atualização em todos os aparelhos, mude o número da versão abaixo.
-const VERSAO = 'pdv-v2'
+const VERSAO = 'pdv-v3'
 const ARQUIVOS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/favicon-64.png']
 
 self.addEventListener('install', (e) => {
